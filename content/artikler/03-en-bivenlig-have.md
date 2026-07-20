@@ -39,5 +39,8 @@ Ud over selve planterne kan man gøre haven mere bivenlig med nogle enkle greb:
 - **Lad lidt være vildt.** Et hjørne med vilde blomster, en stak kvas eller et bart, solbeskinnet jordstykke giver de solitære vilde bier steder at bygge rede.
 - **Vælg enkle blomster.** Fyldte prydsorter ser flotte ud, men rummer ofte hverken nektar eller pollen, bierne kan nå.
 - **Tænk i hele sæsonen.** En håndfuld planter fra hver af årets faser gør mere gavn end en enkelt overdådig, men kortvarig blomstring.
+- **Sørg for vand.** Bierne skal også drikke, og de bruger desuden vand til at køle stadet i varmen. Et lavvandet fad med et par sten, bierne kan lande på, eller kanten af en havedam er et enkelt, men værdifuldt tilbud.
+
+Det er værd at huske, at det ikke behøver være stort. Selv en altankasse med krokusløg og lidt timian gør en forskel, og jo flere haver, altaner og grøftekanter der summer, jo tættere bliver det net af fødesteder, bierne kan bevæge sig imellem. Mange små blomsterpletter tilsammen kan noget, som ingen enkelt have kan alene.
 
 En bivenlig have er ikke et projekt, der skal være færdigt til sommer. Det er en måde at tænke haven på – hvor der altid er en blomst på vej, og hvor summen af små beslutninger bliver til et sted, der brummer af liv fra februar til oktober.

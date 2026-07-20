@@ -15,6 +15,8 @@ Honning bliver af og til udråbt som en af verdens mest bæredygtige fødevarer.
 
 Der er noget om snakken. En bifamilie optager et par kvadratmeter og skal ikke bruge dyrket jord. Der er ingen kunstvanding, ingen sprøjtning af selve produktionen, og bierne omdanner en ressource – blomsternes nektar – som ellers ikke ville blive udnyttet. Sammenlignet med mange andre sødemidler er det energimæssige aftryk fra selve produktionen beskedent.
 
+Honning er desuden en fødevare, der stort set ikke behøver forarbejdning. Den slynges, sies og tappes – der er ingen kogning, raffinering eller lange produktionskæder, som mange andre sødemidler kræver. Og køber man lokalt, er der hverken lang transport eller tung emballage indblandet.
+
 Dertil kommer sidegevinsten: bestøvningen. Bierne besøger afgrøder og vilde planter, mens de samler nektar, og ifølge FN's fødevareorganisation FAO er omkring tre fjerdedele af verdens vigtigste fødevareafgrøder i et eller andet omfang afhængige af dyrebestøvning. Bien leverer altså to ting på én gang: honning i glasset og bestøvning i landskabet. Erstatter honningen desuden et sødemiddel, der kræver dyrket jord, som roe- eller rørsukker, kan man argumentere for en yderligere gevinst.
 
 <div class="fakta"><strong>Vidste du?</strong> Bierne besøger blomsterne for deres egen skyld – for at samle nektar og pollen. Bestøvningen af markens og havens planter er en gratis sidegevinst, som falder af helt uden ekstra ressourceforbrug.</div>
