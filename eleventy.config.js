@@ -1,3 +1,5 @@
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+
 export default function (eleventyConfig) {
   // Læsetid i minutter ud fra ordantal (≈180 ord/min for dansk brødtekst)
   eleventyConfig.addFilter("laesetid", (content) => {
@@ -13,6 +15,19 @@ export default function (eleventyConfig) {
 
   // Nulpolstret to-cifret nummer (01, 02, …) til artikelindekset
   eleventyConfig.addFilter("pad2", (n) => String(n).padStart(2, "0"));
+
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss",
+    outputPath: "/feed.xml",
+    collection: { name: "artiklerSorteret", limit: 0 },
+    metadata: {
+      language: "da",
+      title: "Henriks Honning",
+      subtitle: "Artikler om honningbier, natur og biodiversitet.",
+      base: "https://henrikkjaernielsen.github.io/HenriksHonning/",
+      author: { name: "Henrik Kjær Nielsen" },
+    },
+  });
 
   eleventyConfig.addPassthroughCopy("assets");
 
