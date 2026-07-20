@@ -11,6 +11,8 @@ export default function (eleventyConfig) {
     return collectionApi.getFilteredByTag("artikler").sort((a, b) => a.date - b.date);
   });
 
+  eleventyConfig.addPassthroughCopy("assets");
+
   return {
     dir: {
       input: "content",
