@@ -126,8 +126,8 @@ HenriksHonning/
 
 **Artikel-frontmatter:** `title`, `category`, `date`, `image`, `description` (uddrag).
 Læsetid beregnes automatisk af et Eleventy-filter. Artikelindekset på forsiden genereres
-af en collection sorteret efter dato (nyeste nederst tildeles højeste nummer — numrene 01-07
-afspejler rækkefølgen, ikke faste id'er).
+af en collection sorteret efter dato, ældste først: den første artikel er 01, og en ny
+artikel får automatisk det næste nummer og vises nederst i indekset.
 
 **Deploy:** push til `main` → GitHub Actions kører `npx @11ty/eleventy` → udgiver `_site/`
 til GitHub Pages. Eget domæne kan tilføjes senere via CNAME.
