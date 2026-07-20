@@ -277,3 +277,12 @@ footer a{color:var(--paper);text-decoration:none;border-bottom:1px solid rgba(21
   .footer-inner{grid-template-columns:1fr;gap:40px;}
   .comb-study{width:420px;}
 }
+
+/* ---------- statiske sider (om/kontakt) ---------- */
+.static-page{padding:150px 48px 90px;}
+.static-inner{max-width:680px;margin:0 auto;}
+.static-inner .page-title{font-size:clamp(38px,5vw,68px);font-weight:900;letter-spacing:-.015em;margin:14px 0 28px;}
+.static-inner p{font-size:17px;line-height:1.8;font-weight:300;color:var(--ink-soft);margin-bottom:20px;}
+.static-inner h2{font-size:28px;font-weight:600;margin:36px 0 14px;}
+.static-inner a{color:var(--honey-deep);}
+@media (max-width:900px){.static-page{padding:120px 22px 70px;}}
