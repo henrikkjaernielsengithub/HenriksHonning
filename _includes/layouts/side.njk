@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+---
+<article class="static-page">
+  <div class="static-inner">
+    <span class="label">{{ kicker or "Om" }}</span>
+    <h1 class="page-title">{{ title }}</h1>
+    {{ content | safe }}
+  </div>
+</article>
