@@ -1,0 +1,46 @@
+---
+layout: layouts/base.njk
+---
+<article class="article">
+  {% if image %}
+  <div class="article-hero"><img src="{{ image }}" alt="{{ imageAlt or title }}"></div>
+  {% else %}
+  <div class="article-hero article-hero--placeholder"></div>
+  {% endif %}
+  <div class="article-body">
+    <div class="article-meta">
+      <span class="label">{{ category }}</span>
+      <span class="dot">·</span>
+      <span class="label">{{ content | laesetid }} min. læsning</span>
+    </div>
+    <h1 class="article-title">{{ title }}</h1>
+    <div class="prose">
+      {{ content | safe }}
+    </div>
+
+    {% if kilder %}
+    <div class="kilder">
+      <strong>Kilder</strong>
+      <ul>
+        {%- for kilde in kilder %}
+        <li>{{ kilde | safe }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    <nav class="article-nav">
+      {%- set poster = collections.artiklerSorteret %}
+      {%- for post in poster %}
+        {%- if post.url == page.url %}
+          {%- if loop.index0 > 0 %}
+          <a class="prev" href="{{ (poster[loop.index0 - 1]).url }}">← {{ (poster[loop.index0 - 1]).data.title }}</a>
+          {%- endif %}
+          {%- if not loop.last %}
+          <a class="next" href="{{ (poster[loop.index0 + 1]).url }}">{{ (poster[loop.index0 + 1]).data.title }} →</a>
+          {%- endif %}
+        {%- endif %}
+      {%- endfor %}
+    </nav>
+  </div>
+</article>
