@@ -27,7 +27,7 @@ export default function (eleventyConfig) {
       language: "da",
       title: "Henriks Honning",
       subtitle: "Artikler om honningbier, natur og biodiversitet.",
-      base: "https://henrikkjaernielsengithub.github.io/HenriksHonning/",
+      base: "https://hkjaernielsen.github.io/HenriksHonning/",
       author: { name: "Henrik Kjær Nielsen" },
     },
   });

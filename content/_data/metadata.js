@@ -5,7 +5,7 @@ export default {
     "Artikler om honningbier, natur og biodiversitet — fra en bigård på en skovejendom ved Hinge.",
   language: "da",
   // OPDATERES når endeligt domæne er valgt. Bruges kun til absolutte URL'er i RSS.
-  url: "https://henrikkjaernielsengithub.github.io/HenriksHonning/",
+  url: "https://hkjaernielsen.github.io/HenriksHonning/",
   author: {
     name: "Henrik Kjær Nielsen",
     email: "henrikkjaernielsen@hotmail.com",
