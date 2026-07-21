@@ -46,8 +46,18 @@ Redesteder er sværere at spå om. Der er huller og hulrum overalt, men om nogen
 
 Etableringen skal ske gennem sværmning. I halvanden sæson har jeg haft en familie boende i et <em>opstablingsmagasin</em> – et stade opbygget af kasser, der stables oven på hinanden – i en lysning, netop for at være sikker på, at den sværmer. Men skal en enkelt sværm have en rimelig chance for at finde et egnet træ, må jeg have langt flere <em>donorfamilier</em>: familier, jeg ikke høster honning fra, men blot ser til nogle få gange om året og behandler mod varroa i et vist omfang. Deres eneste opgave er at sende sværme ud i skoven.
 
-## En drøm med åben ende
+## En begyndelse
 
-Jeg er ikke i tvivl om, at det er et vovestykke. Forskningen viser jo, at det både kan lade sig gøre og ofte mislykkes – at det kræver held, tid og formentlig en portion naturlig udvælgelse, før en bestand kan stå på egne ben. Måske finder mine sværme aldrig et hjem. Måske klarer de en vinter eller to og bukker så under. Men måske – en dag – summer der en familie i et gammelt bøgetræ, som ingen har sat der.
+Jeg er ikke i tvivl om, at det er et vovestykke. Forskningen viser jo, at det både kan lade sig gøre og ofte mislykkes – at det kræver held, tid og formentlig en portion naturlig udvælgelse, før en bestand kan stå på egne ben.
 
-Det er den drøm, der trækker mig ud i skoven. Og skulle du sidde med den samme nysgerrighed – efter en natur, hvor honningbien igen hører hjemme mellem træerne – så vil jeg altid gerne veksle et par ord om det. For måske er det netop i sådan en stille tålmodighed, at bien en dag finder vej tilbage.
+Og så skete der alligevel noget, jeg knap havde turdet håbe på så tidligt: for første gang er en bifamilie på egen hånd flyttet ind i et gammelt bøgetræ i skoven. En sværm har fundet et hulrum og slået sig ned – helt uden min hånd i spillet. Om den har nogen chance for at overleve, ved jeg ikke; nu skal den klare vinteren og varroamiden helt alene. Men der er skabt en begyndelse – det første, spæde tegn på, at bierne stadig kan finde hjem i skoven, hvis blot træerne får lov at stå.
+
+<figure class="article-video">
+  <video controls preload="metadata" poster="/assets/img/bi-i-boegetrae-poster.jpg">
+    <source src="/assets/video/bi-i-boegetrae.mp4" type="video/mp4">
+    Din browser kan desværre ikke afspille videoen.
+  </video>
+  <figcaption>Livlig flyveaktivitet ved sprækken i det gamle bøgetræ – bifamilien, der på egen hånd har fundet sig et vildt hjem.</figcaption>
+</figure>
+
+Det er den drøm, der trækker mig ud i skoven. Og skulle du sidde med den samme nysgerrighed – efter en natur, hvor honningbien igen hører hjemme mellem træerne – så veksler jeg altid gerne et par ord om det. For måske er det netop i sådan en stille tålmodighed, at bien finder vej tilbage.

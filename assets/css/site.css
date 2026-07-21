@@ -316,6 +316,9 @@ footer a{color:var(--paper);text-decoration:none;border-bottom:1px solid rgba(21
 .prose li strong{color:var(--ink);font-weight:600;}
 .prose blockquote,.prose .fakta{background:#fff;border-left:3px solid var(--honey);border-radius:0 6px 6px 0;padding:16px 20px;margin:26px 0;font-size:15px;line-height:1.7;color:var(--ink-soft);}
 .prose .fakta strong{color:var(--honey-deep);display:block;margin-bottom:4px;}
+.article-video{margin:32px 0;}
+.article-video video{display:block;margin:0 auto;max-width:100%;max-height:80vh;width:auto;height:auto;border-radius:10px;background:#000;}
+.article-video figcaption{margin-top:12px;font-size:13.5px;font-style:italic;color:var(--sepia);text-align:center;line-height:1.5;}
 .kilder{border-top:1px solid var(--line);margin-top:44px;padding-top:20px;font-size:13.5px;color:var(--sepia);}
 .kilder ul{margin:10px 0 0;padding-left:18px;}
 .kilder li{margin-bottom:6px;line-height:1.6;}
