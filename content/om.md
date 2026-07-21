@@ -8,7 +8,7 @@ permalink: /om/
 
 ![Skovejendommen ved Hinge med bistader i udkanten af engen](/assets/img/om-bigaarden.jpg)
 
-For omkring ti år siden startede jeg som aldeles nybegynder inden for biavl. I dag
+For mere end ti år siden startede jeg som aldeles nybegynder inden for biavl. I dag
 passer jeg nogle bifamilier på en skovejendom ved Hinge — som en hobby, der er
 vokset sig til en fascination af biernes liv og deres rolle i naturen.
 

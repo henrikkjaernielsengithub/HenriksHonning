@@ -538,8 +538,8 @@ layout: layouts/base.njk
         <em>natur<span class="underline"></span></em>
       </h1>
       <p class="hero-sub reveal in">
-        Læseværdige artikler om honningbiens forunderlige liv, biodiversiteten i det
-        danske landskab og hverdagen i en lille bigård på en skovejendom — skrevet
+        Artikler om honningbiens forunderlige liv, biodiversiteten i det
+        danske landskab og hverdagen i en bigård på en skovejendom — skrevet
         med afsæt i dansk faglitteratur om biavl.
       </p>
       <div class="hero-cta reveal in">
@@ -658,7 +658,7 @@ description: Om Henrik og den lille bigård på en skovejendom ved Hinge.
 permalink: /om/
 ---
 
-For omkring ti år siden startede jeg som aldeles nybegynder inden for biavl. I dag
+For mere end ti år siden startede jeg som aldeles nybegynder inden for biavl. I dag
 passer jeg nogle bifamilier på en skovejendom ved Hinge — som en hobby, der er
 vokset sig til en fascination af biernes liv og deres rolle i naturen.
 

@@ -22,7 +22,7 @@ I Danmark taler man ofte om honningen efter, hvornår og hvor den er samlet.
 
 **Lynghonning** er noget helt for sig. Den samles sent på sommeren, hvor lyngen blomstrer på heder og i klitter, og den er mørk, kraftig i smagen og har en tyk, næsten geléagtig konsistens, der gør den vanskelig at slynge. Den er sjælden og eftertragtet.
 
-**Skovhonning** stammer fra skovens træer og planter – blandt andet lind – og har typisk en mørkere farve og en fyldigere, mere krydret smag end den lyse forårshonning.
+**Skovhonning** er en overraskelse for de fleste, for den stammer ofte slet ikke fra blomster. Ægte skovhonning laves helt eller delvist af **honningdug** – de søde dråber, som bladlus og skjoldlus udskiller, når de suger saft fra skovens træer, for eksempel gran, eg og lind. Bierne samler honningdugen op, som var den nektar, og resultatet er en mørk honning med en kraftig, krydret smag. Fordi den indeholder mindre glukose end blomsterhonning, holder den sig desuden flydende længere.
 
 <div class="fakta"><strong>Vidste du?</strong> Honningens farve og smag afsløres af blomsterne. Lys honning som rapshonning er mild, mens mørk honning fra skov og lyng ofte er langt kraftigere i smagen – helt uden at biavleren har tilsat noget som helst.</div>
 

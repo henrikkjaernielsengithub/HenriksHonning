@@ -16,7 +16,7 @@ Vi har alle lært, at honningbien har været en fast del af den danske natur i t
 
 Men måske blæser der nye vinde i Danmark? Om det politiske fokus på at genskabe natur – braklægning, skovrejsning og urørt skov – virkelig batter, finder vi nok først ud af om mange år. Men hvis vi drømmer lidt og forestiller os, at vi igen kan færdes i vilde skove frem for friserede plantager – ville honningbien så selv kunne finde tilbage? Hvor lang tid ville det tage? Og kan vi mon hjælpe udviklingen på vej?
 
-Jeg hedder Henrik Kjær Nielsen og har været biavler i godt ti år. Jeg er så heldig at have erhvervet mig en pragtfuld skovejendom i det midtjyske, og efter at have brugt en del krudt på at renovere hovedbygningen er jeg nu klar til at rette blikket mod omgivelserne – og mod mit nye projekt: at få en bifamilie til at bosætte sig permanent ude i skoven.
+Jeg hedder Henrik Kjær Nielsen og har været biavler i en del år. Jeg er så heldig at have erhvervet mig en pragtfuld skovejendom i det midtjyske, og efter at have brugt en del krudt på at renovere hovedbygningen er jeg nu klar til at rette blikket mod omgivelserne – og mod mit nye projekt: at få en bifamilie til at bosætte sig permanent ude i skoven.
 
 ## Da bien boede i træet
 
