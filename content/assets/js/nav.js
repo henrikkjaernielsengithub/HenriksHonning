@@ -15,6 +15,9 @@
     if (e.target.closest("a")) saet(false);
   });
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") saet(false);
+    if (e.key === "Escape" && menu.classList.contains("aaben")) {
+      saet(false);
+      knap.focus();
+    }
   });
 })();

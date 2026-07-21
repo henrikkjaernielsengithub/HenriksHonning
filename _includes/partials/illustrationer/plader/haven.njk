@@ -1,0 +1,44 @@
+<svg class="draw" viewBox="0 0 220 250" role="img" aria-label="Studieblad: tveskægget ærenpris">
+  <defs>
+    <pattern id="ch-pl-haven" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#6b5334" stroke-width=".7" opacity=".4"/>
+    </pattern>
+    <filter id="rough-pl-haven"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2"/></filter>
+  </defs>
+  <ellipse cx="110" cy="120" rx="92" ry="90" fill="#efe7d3" opacity=".6"/>
+  <g filter="url(#rough-pl-haven)">
+    <!-- stængel -->
+    <path class="sketch animate-draw" stroke-width="1.6" d="M104 196 C 106 168, 104 140, 110 112 C 114 92, 120 76, 128 62"/>
+    <!-- de to hårrækker: artens kendetegn -->
+    <g class="sketch" stroke-width=".7">
+      <path d="M101 188 l-5 2 M100 176 l-5 2 M100 164 l-5 1 M101 152 l-5 1 M103 140 l-5 1 M105 128 l-5 1"/>
+      <path d="M108 186 l5 2 M108 174 l5 2 M108 162 l5 1 M110 150 l5 1 M112 138 l5 1 M114 126 l5 1"/>
+    </g>
+    <path class="sketch-faint" stroke-width=".7" stroke-dasharray="1 5" d="M96 158 C 82 154, 70 152, 58 154"/>
+    <text class="annot" x="16" y="146" font-size="13">to hårrækker</text>
+    <!-- modsatte blade: ægformede, takkede -->
+    <g class="sketch" stroke-width="1.2">
+      <path class="animate-draw" d="M106 132 C 88 130, 74 120, 70 106 C 84 102, 100 110, 106 124 Z" fill="url(#ch-pl-haven)"/>
+      <path class="animate-draw" d="M112 128 C 128 122, 138 110, 138 96 C 124 96, 112 108, 110 122 Z"/>
+      <path d="M74 108 l6 -2 M80 114 l6 -3 M88 120 l5 -3 M134 100 l-6 1 M130 108 l-6 2 M124 114 l-5 3"/>
+    </g>
+    <!-- blomster: fire kronblade, det nederste mindst -->
+    <g class="sketch" stroke-width="1.1">
+      <g class="animate-draw">
+        <circle cx="128" cy="46" r="9"/><circle cx="118" cy="55" r="9"/><circle cx="138" cy="55" r="9"/><circle cx="128" cy="63" r="6.5"/>
+        <circle cx="128" cy="55" r="2" fill="#6b5334" opacity=".5"/>
+      </g>
+      <g>
+        <circle cx="158" cy="76" r="7"/><circle cx="150" cy="83" r="7"/><circle cx="166" cy="83" r="7"/><circle cx="158" cy="89" r="5"/>
+        <circle cx="158" cy="82" r="1.6" fill="#6b5334" opacity=".5"/>
+      </g>
+      <g>
+        <circle cx="94" cy="70" r="6"/><circle cx="87" cy="76" r="6"/><circle cx="101" cy="76" r="6"/><circle cx="94" cy="81" r="4.5"/>
+        <circle cx="94" cy="75" r="1.5" fill="#6b5334" opacity=".5"/>
+      </g>
+      <path d="M126 66 C 122 76, 118 88, 114 98 M154 90 C 146 98, 136 106, 126 110 M96 82 C 100 92, 104 100, 108 108"/>
+    </g>
+    <text class="annot" x="16" y="36" font-size="12">veronica chamaedrys</text>
+    <text class="annot" x="110" y="226" font-size="17" text-anchor="middle" letter-spacing=".05em">tveskægget ærenpris</text>
+  </g>
+</svg>

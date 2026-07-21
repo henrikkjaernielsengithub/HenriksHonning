@@ -1,12 +1,12 @@
 // Engangs-import: læser originaler fra _raw/galleri (uden for git),
-// retter EXIF-rotation og genererer web-optimerede JPEG'er til assets/img/galleri.
+// retter EXIF-rotation og genererer web-optimerede JPEG'er til content/assets/img/galleri.
 // Kør:  node scripts/importer-galleri.mjs
 import { mkdir } from "node:fs/promises";
 import path from "node:path";
 import sharp from "sharp";
 
 const KILDE = "_raw/galleri";
-const MAAL = "assets/img/galleri";
+const MAAL = "content/assets/img/galleri";
 
 // original → web-slug (jf. spec, tabellen "Endelig billedliste")
 const BILLEDER = {

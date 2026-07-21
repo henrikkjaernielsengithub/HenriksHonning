@@ -3,14 +3,23 @@ layout: layouts/base.njk
 ---
 <article class="article">
   {% if image %}
-  <div class="article-hero"><img src="{{ image }}" alt="{{ imageAlt or title }}"></div>
+  <div class="article-hero"><img src="{{ image }}" alt="{{ imageAlt or title }}" sizes="100vw" loading="eager" fetchpriority="high"></div>
   {% else %}
   <div class="article-hero article-hero--placeholder"></div>
   {% endif %}
   <div class="article-body">
+    {# bogplade: kategoriens studieblad, som i en naturaliebog #}
+    {%- set plader = {"Bierne": "bierne", "Natur": "natur", "Haven": "haven", "Honningen": "honningen", "Bigården": "bigaarden"} %}
+    {%- if plader[category] %}
+    <div class="bogplade reveal in">
+      {% include "partials/illustrationer/plader/" + plader[category] + ".njk" %}
+    </div>
+    {%- endif %}
     <div class="article-meta">
       <span class="label">{{ category }}</span>
-      <span class="dot">·</span>
+      <span class="dot" aria-hidden="true">·</span>
+      <span class="label">{{ page.date | maanedAar }}</span>
+      <span class="dot" aria-hidden="true">·</span>
       <span class="label">{{ content | laesetid }} min. læsning</span>
     </div>
     <h1 class="article-title">{{ title }}</h1>
@@ -30,14 +39,15 @@ layout: layouts/base.njk
     {% endif %}
 
     <nav class="article-nav">
-      {%- set poster = collections.artiklerSorteret %}
+      {# samme rækkefølge som forsiden (nyeste først): ← nyere · ældre → #}
+      {%- set poster = collections.artiklerNyesteFoerst %}
       {%- for post in poster %}
         {%- if post.url == page.url %}
           {%- if loop.index0 > 0 %}
-          <a class="prev" href="{{ (poster[loop.index0 - 1]).url }}">← {{ (poster[loop.index0 - 1]).data.title }}</a>
+          <a class="prev" href="{{ (poster[loop.index0 - 1]).url }}"><span aria-hidden="true">← </span>{{ (poster[loop.index0 - 1]).data.title }}</a>
           {%- endif %}
           {%- if not loop.last %}
-          <a class="next" href="{{ (poster[loop.index0 + 1]).url }}">{{ (poster[loop.index0 + 1]).data.title }} →</a>
+          <a class="next" href="{{ (poster[loop.index0 + 1]).url }}">{{ (poster[loop.index0 + 1]).data.title }}<span aria-hidden="true"> →</span></a>
           {%- endif %}
         {%- endif %}
       {%- endfor %}

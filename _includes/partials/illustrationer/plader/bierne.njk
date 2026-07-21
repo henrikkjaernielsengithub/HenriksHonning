@@ -1,0 +1,33 @@
+<svg class="draw" viewBox="0 0 220 220" role="img" aria-label="Studieblad: honningbiens forvinge med årenet">
+  <defs>
+    <pattern id="ch-pl-bierne" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#6b5334" stroke-width=".8" opacity=".5"/>
+    </pattern>
+    <filter id="rough-pl-bierne"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2"/></filter>
+  </defs>
+  <ellipse cx="110" cy="108" rx="98" ry="78" fill="#efe7d3" opacity=".6"/>
+  <g filter="url(#rough-pl-bierne)">
+    <!-- vingekontur: næsten lige forkant, afrundet spids, buet bagkant -->
+    <path class="sketch animate-draw" stroke-width="1.6"
+      d="M28 116 C 36 96, 68 82, 112 78 C 152 74, 186 80, 194 94 C 198 104, 190 114, 174 122 C 146 136, 96 146, 62 142 C 42 139, 28 130, 28 116 Z"/>
+    <!-- vingebasis, skraveret -->
+    <path class="sketch" stroke-width="1" fill="url(#ch-pl-bierne)"
+      d="M30 114 C 34 102, 44 94, 56 90 C 50 102, 46 114, 46 128 C 39 126, 32 122, 30 114 Z"/>
+    <!-- længderibber -->
+    <g class="sketch" stroke-width="1">
+      <path class="animate-draw" d="M32 108 C 64 90, 122 80, 190 92"/>
+      <path class="animate-draw" d="M36 120 C 74 106, 132 96, 186 100"/>
+      <path class="animate-draw" d="M40 130 C 84 120, 132 114, 172 114"/>
+      <path d="M48 138 C 88 134, 124 130, 152 126"/>
+    </g>
+    <!-- randcelle: lang smal celle langs forkanten -->
+    <path class="sketch" stroke-width=".9" d="M146 84 C 162 88, 176 92, 187 97"/>
+    <!-- tværribber -->
+    <g class="sketch" stroke-width=".8">
+      <path d="M76 96 l-3 15 M110 87 l-3 15 M146 84 l-2 14 M92 116 l-2 12 M124 108 l-3 12 M158 104 l-2 11 M74 128 l-2 9 M108 124 l-2 10 M140 120 l-2 8"/>
+    </g>
+    <path class="sketch-faint" stroke-width=".7" stroke-dasharray="1 5" d="M170 90 C 176 78, 184 68, 194 62"/>
+    <text class="annot" x="142" y="52" font-size="13">randcelle</text>
+    <text class="annot" x="110" y="192" font-size="17" text-anchor="middle" letter-spacing=".05em">apis mellifera · forvinge</text>
+  </g>
+</svg>

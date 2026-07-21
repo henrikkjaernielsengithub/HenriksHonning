@@ -6,10 +6,12 @@
     <span></span><span></span><span></span>
   </button>
   <div class="menu" id="hovedmenu">
-    <a href="/#artikler">Artikler</a>
+    {# på artikelsider markeres "Artikler" som aktivt afsnit (true, ikke page) #}
+    <a href="/#artikler"{% if "/artikler/" in page.url %} aria-current="true"{% endif %}>Artikler</a>
     <a href="/#aaret">Året i bigården</a>
-    <a href="/billeder/">Billeder</a>
-    <a href="/om/">Om</a>
-    <a href="/om/#kontakt">Kontakt</a>
+    <a href="/billeder/"{% if page.url == "/billeder/" %} aria-current="page"{% endif %}>Billeder</a>
+    <a href="/om/"{% if page.url == "/om/" %} aria-current="page"{% endif %}>Om</a>
+    {# footeren med id="kontakt" findes på alle sider — intet sideskift nødvendigt #}
+    <a href="#kontakt">Kontakt</a>
   </div>
 </nav>

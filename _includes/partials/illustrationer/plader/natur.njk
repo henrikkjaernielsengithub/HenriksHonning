@@ -1,0 +1,32 @@
+<svg class="draw" viewBox="0 0 220 250" role="img" aria-label="Studieblad: bøgens blad og bog">
+  <defs>
+    <pattern id="ch-pl-natur" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#6b5334" stroke-width=".8" opacity=".5"/>
+    </pattern>
+    <filter id="rough-pl-natur"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2"/></filter>
+  </defs>
+  <ellipse cx="110" cy="118" rx="96" ry="88" fill="#efe7d3" opacity=".6"/>
+  <g filter="url(#rough-pl-natur)">
+    <!-- bøgeblad: ægformet med bølget helrand -->
+    <path class="sketch animate-draw" stroke-width="1.6"
+      d="M64 168 C 48 148, 42 118, 52 92 C 62 66, 84 48, 104 46 C 110 60, 116 82, 114 108 C 112 136, 96 160, 76 170 C 72 172, 67 171, 64 168 Z"/>
+    <!-- midterribbe -->
+    <path class="sketch animate-draw" stroke-width="1.1" d="M104 46 C 92 86, 80 130, 66 168"/>
+    <!-- sideribber: parallelle, på begge sider af midterribben -->
+    <g class="sketch" stroke-width=".8">
+      <path d="M97 66 C 88 64, 76 66, 66 72 M94 82 C 84 80, 72 84, 62 90 M90 100 C 80 98, 70 102, 60 108 M86 118 C 77 116, 68 120, 60 126 M82 134 C 74 132, 66 136, 60 142 M76 150 C 70 148, 64 150, 59 155"/>
+      <path d="M100 62 C 105 66, 109 72, 111 80 M97 78 C 103 82, 107 88, 109 96 M93 96 C 99 100, 103 106, 105 114 M89 114 C 95 118, 98 124, 100 131 M85 130 C 90 134, 93 140, 94 147"/>
+    </g>
+    <!-- stilk -->
+    <path class="sketch" stroke-width="1.2" d="M64 168 C 60 178, 58 186, 58 194"/>
+    <!-- bog: trekantet nød i pigget skål -->
+    <g class="sketch" stroke-width="1.3">
+      <path class="animate-draw" d="M146 128 L168 112 L176 140 L154 148 Z" fill="url(#ch-pl-natur)"/>
+      <path d="M168 112 L161 144" stroke-width=".9"/>
+      <path class="animate-draw" d="M138 150 C 130 138, 132 120, 144 110 C 143 122, 146 136, 154 148 C 148 152, 142 152, 138 150 Z"/>
+      <path d="M136 142 l-8 2 M134 132 l-8 0 M135 122 l-7 -3 M139 113 l-6 -5 M145 107 l-4 -7" stroke-width=".9"/>
+    </g>
+    <text class="annot" x="140" y="172" font-size="13">bog i skål</text>
+    <text class="annot" x="110" y="226" font-size="17" text-anchor="middle" letter-spacing=".05em">fagus sylvatica · bøg</text>
+  </g>
+</svg>

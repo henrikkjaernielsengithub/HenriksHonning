@@ -13,9 +13,10 @@ permalink: /billeder/
   </div>
 
   {%- for sektion in galleri %}
+  {%- set ydre = loop %}
   <div class="galleri-sektion">
     <div class="galleri-sektion-head reveal">
-      <span class="num">{{ sektion.nummer }} · {{ sektion.periode }}</span>
+      <span class="periode">{{ sektion.periode }}</span>
       <h2>{{ sektion.titel }}</h2>
     </div>
     <p class="galleri-sektion-intro reveal">{{ sektion.intro }}</p>
@@ -23,7 +24,9 @@ permalink: /billeder/
       {%- for b in sektion.billeder %}
       <figure class="galleri-figur galleri-{{ b.format }} reveal" style="--span:{{ b.span }}">
         <a href="/assets/img/galleri/{{ b.fil }}.jpg">
-          <img src="/assets/img/galleri/{{ b.fil }}.jpg" alt="{{ b.alt }}"{% if not (loop.first and sektion.nummer == "01") %} loading="lazy"{% endif %}>
+          <img src="/assets/img/galleri/{{ b.fil }}.jpg" alt="{{ b.alt }}"
+               sizes="(max-width: 900px) calc(100vw - 44px), {{ b.span * 95 }}px"
+               {%- if ydre.first and loop.first %} loading="eager" fetchpriority="high"{% else %} loading="lazy"{% endif %}>
         </a>
         <figcaption>{{ b.tekst }}</figcaption>
       </figure>
@@ -35,9 +38,10 @@ permalink: /billeder/
 <dialog id="galleri-lightbox" class="galleri-lightbox" aria-label="Billedfremviser">
   <button class="lb-luk" aria-label="Luk">×</button>
   <button class="lb-forrige" aria-label="Forrige billede">←</button>
-  <figure>
-    <img src="" alt="">
+  <figure aria-live="polite">
+    <img src="" alt="" eleventy:ignore>
     <figcaption></figcaption>
+    <span class="lb-taeller"></span>
   </figure>
   <button class="lb-naeste" aria-label="Næste billede">→</button>
 </dialog>

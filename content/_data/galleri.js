@@ -2,7 +2,6 @@
 // format: "bred" (16/10), "hoej" (3/4), "hero" (21/10) — span: kolonner af 12.
 export default [
   {
-    nummer: "01",
     periode: "Februar–april",
     titel: "Foråret melder sig",
     intro:
@@ -31,7 +30,6 @@ export default [
     ],
   },
   {
-    nummer: "02",
     periode: "Maj–juli",
     titel: "Bigården i skoven",
     intro:
@@ -65,7 +63,6 @@ export default [
     ],
   },
   {
-    nummer: "03",
     periode: "August",
     titel: "Høsten",
     intro:
@@ -99,7 +96,6 @@ export default [
     ],
   },
   {
-    nummer: "04",
     periode: "Oktober–november",
     titel: "Skoven lukker året",
     intro:

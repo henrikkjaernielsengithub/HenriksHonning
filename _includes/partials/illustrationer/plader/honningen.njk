@@ -1,0 +1,30 @@
+<svg class="draw" viewBox="0 0 220 250" role="img" aria-label="Studieblad: honningtavle med forseglet og åben honning">
+  <defs>
+    <pattern id="ch-pl-honning" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#6b5334" stroke-width=".7" opacity=".4"/>
+    </pattern>
+    <pattern id="celler-pl" width="56" height="97" patternUnits="userSpaceOnUse" patternTransform="scale(.43)">
+      <path d="M28 0 56 16v32L28 64 0 48V16Z M28 64 56 80v17h-4L28 82 4 97H0V80Z" fill="none" stroke="#6b5334" stroke-width="1.6" opacity=".5"/>
+    </pattern>
+    <filter id="rough-pl-honning"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2"/></filter>
+  </defs>
+  <ellipse cx="110" cy="118" rx="98" ry="86" fill="#efe7d3" opacity=".6"/>
+  <g filter="url(#rough-pl-honning)">
+    <!-- ramme med liste foroven -->
+    <path class="sketch animate-draw" stroke-width="1.6" d="M38 62 h144 v118 h-144 Z"/>
+    <path class="sketch" stroke-width="1.1" d="M30 54 h160 v8 h-160 Z" fill="url(#ch-pl-honning)"/>
+    <path class="sketch" stroke-width="1" d="M46 70 h128 v102 h-128 Z"/>
+    <!-- tavletråde -->
+    <path class="sketch-faint" stroke-width=".7" d="M46 96 h128 M46 130 h128 M46 158 h128"/>
+    <!-- cellevæg-tekstur -->
+    <rect x="46" y="70" width="128" height="102" fill="url(#celler-pl)"/>
+    <!-- forseglet felt (øverst): skravering over cellerne -->
+    <path class="sketch" stroke-width="1" d="M46 70 h128 v34 c-42 10, -86 10, -128 0 Z" fill="url(#ch-pl-honning)"/>
+    <!-- markeringer -->
+    <path class="sketch-faint" stroke-width=".7" stroke-dasharray="1 5" d="M148 52 C 142 60, 138 66, 136 76"/>
+    <text class="annot" x="146" y="46" font-size="13">forseglet</text>
+    <path class="sketch-faint" stroke-width=".7" stroke-dasharray="1 5" d="M62 150 C 48 156, 38 164, 32 174"/>
+    <text class="annot" x="18" y="192" font-size="13">åben</text>
+    <text class="annot" x="110" y="226" font-size="17" text-anchor="middle" letter-spacing=".05em">honningtavle</text>
+  </g>
+</svg>
