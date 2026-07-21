@@ -2,7 +2,7 @@ export default {
   title: "Henriks Honning",
   tagline: "Bierne & den danske natur",
   description:
-    "Læseværdige artikler om honningbier, natur og biodiversitet — fra en lille bigård på en skovejendom ved Kjellerup.",
+    "Læseværdige artikler om honningbier, natur og biodiversitet — fra en lille bigård på en skovejendom ved Hinge.",
   language: "da",
   // OPDATERES når endeligt domæne er valgt. Bruges kun til absolutte URL'er i RSS.
   url: "https://henrikkjaernielsengithub.github.io/HenriksHonning/",

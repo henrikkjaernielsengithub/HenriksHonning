@@ -235,6 +235,11 @@ footer{
   width:88px;height:88px;margin-bottom:26px;position:relative;
   filter:drop-shadow(0 6px 14px rgba(0,0,0,.35));
 }
+.footer-logo{
+  width:132px;height:auto;display:block;margin-bottom:22px;
+  filter:drop-shadow(0 8px 18px rgba(0,0,0,.4));
+}
+.brand-logo{display:block;flex-shrink:0;}
 footer h5{font-size:24px;font-weight:600;color:var(--paper);margin-bottom:14px;}
 footer p{font-size:14.5px;line-height:1.8;font-weight:300;}
 footer .label{color:var(--honey);margin-bottom:16px;display:block;}

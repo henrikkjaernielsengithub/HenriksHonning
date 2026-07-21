@@ -2,14 +2,14 @@
 layout: layouts/side.njk
 title: Om Henriks Honning
 kicker: Historien bag bigården
-description: Om Henrik og den lille bigård på en skovejendom ved Kjellerup.
+description: Om Henrik og den lille bigård på en skovejendom ved Hinge.
 permalink: /om/
 ---
 
-![Skovejendommen ved Kjellerup med bistader i udkanten af engen](/assets/img/om-bigaarden.jpg)
+![Skovejendommen ved Hinge med bistader i udkanten af engen](/assets/img/om-bigaarden.jpg)
 
 For omkring ti år siden startede jeg som aldeles nybegynder inden for biavl. I dag
-passer jeg nogle bifamilier på en skovejendom ved Kjellerup — som en hobby, der er
+passer jeg nogle bifamilier på en skovejendom ved Hinge — som en hobby, der er
 vokset sig til en fascination af biernes liv og deres rolle i naturen.
 
 Denne side samler mine artikler om honningbier, biavl og biodiversitet. Jeg skriver
