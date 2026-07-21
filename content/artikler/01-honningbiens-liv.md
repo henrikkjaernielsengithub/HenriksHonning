@@ -2,6 +2,8 @@
 title: Honningbiens liv
 category: Bierne
 date: 2026-07-01
+image: /assets/img/honningbiens-liv.jpg
+imageAlt: Biavler holder en tavle dækket af bier op foran et åbent stade
 description: En bifamilie er ikke tusindvis af enkeltbier, men ét levende hele. Mød dronningen, arbejderne og dronerne – og følg arbejdsdelingen gennem en arbejderbis korte, travle liv.
 kilder:
   - "Danmarks Biavlerforening, biavl.dk: 'Lidt om honningbiernes levevis' (videnbank)"

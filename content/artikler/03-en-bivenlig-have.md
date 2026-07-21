@@ -2,6 +2,8 @@
 title: En bivenlig have
 category: Haven
 date: 2026-07-03
+image: /assets/img/bivenlig-have.jpg
+imageAlt: Mark med blomstrende blå honningurt foran bistader
 description: Du behøver ikke være biavler for at hjælpe bierne. Med de rigtige planter kan haven summe af liv fra det tidlige forår til langt hen på efteråret. Her er en plan sæson for sæson.
 kilder:
   - "Henriks Honning, blogindlægget 'Prydhaven' (henrikshonning.blogspot.com)"

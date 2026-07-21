@@ -1,6 +1,5 @@
 import { HtmlBasePlugin } from "@11ty/eleventy";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(HtmlBasePlugin);
@@ -30,14 +29,6 @@ export default function (eleventyConfig) {
       subtitle: "Artikler om honningbier, natur og biodiversitet.",
       base: "https://henrikkjaernielsengithub.github.io/HenriksHonning/",
       author: { name: "Henrik Kjær Nielsen" },
-    },
-  });
-
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    formats: ["avif", "webp", "jpeg"],
-    widths: ["auto", 800, 1400],
-    htmlOptions: {
-      imgAttributes: { loading: "lazy", decoding: "async" },
     },
   });
 

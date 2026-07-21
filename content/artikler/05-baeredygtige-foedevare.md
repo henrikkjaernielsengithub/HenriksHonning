@@ -2,6 +2,8 @@
 title: Verdens mest bæredygtige fødevare?
 category: Honningen
 date: 2026-07-05
+image: /assets/img/baeredygtig.jpg
+imageAlt: Række af bistader i en lysning i aftenlys
 description: Honning fremhæves ofte som en klimavenlig fødevare – ingen marker, ingen vanding, et lille aftryk. Men holder billedet hele vejen rundt? Et forsøg på et ærligt svar.
 kilder:
   - "Henriks Honning, blogindlægget 'Verdens mest bæredygtige fødevare?' (henrikshonning.blogspot.com)"

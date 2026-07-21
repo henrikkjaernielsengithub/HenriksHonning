@@ -286,6 +286,7 @@ footer a{color:var(--paper);text-decoration:none;border-bottom:1px solid rgba(21
 .static-inner p{font-size:17px;line-height:1.8;font-weight:300;color:var(--ink-soft);margin-bottom:20px;}
 .static-inner h2{font-size:28px;font-weight:600;margin:36px 0 14px;}
 .static-inner a{color:var(--honey-deep);}
+.static-inner img{width:100%;height:auto;border-radius:10px;margin:0 0 30px;display:block;}
 @media (max-width:900px){.static-page{padding:120px 22px 70px;}}
 
 /* ---------- 404 ---------- */

@@ -2,6 +2,8 @@
 title: Bierne og biodiversiteten
 category: Natur
 date: 2026-07-02
+image: /assets/img/biodiversitet.jpg
+imageAlt: Honningbi på lyserøde og blå blomster af slangehoved
 description: Honningbien er kun én blandt hundredvis af danske biarter. Om bestøvningens betydning, det blomsterfattige landskab – og den nuancerede debat om, hvorvidt honningbier og vilde bier konkurrerer.
 kilder:
   - "Plan Bi (planbi.dk): 'Opjustering af antal bi-arter i Danmark' – med henvisning til Entomologiske Meddelelser (2018)"
