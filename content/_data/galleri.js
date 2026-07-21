@@ -39,21 +39,16 @@ export default [
     billeder: [
       {
         fil: "stade-aerenpris", format: "hero", span: 12,
-        tekst: "Stadet ved garagen med et tæppe af tveskægget ærenpris — de grønne kasser anes hele vejen op gennem græsset.",
+        tekst: "Staderne i æblehaven med et tæppe af tveskægget ærenpris — de grønne kasser anes hele vejen op gennem græsset.",
         alt: "Grønt bistade i højt græs med et blåt tæppe af tveskægget ærenpris, hus og garage bag træerne",
       },
       {
-        fil: "haven-maj", format: "bred", span: 5,
+        fil: "haven-maj", format: "bred", span: 6,
         tekst: "Haven i maj: rhododendron og de første slåede stier.",
         alt: "Frodig have med rød og lilla rhododendron og en nyslået sti gennem højt græs",
       },
       {
-        fil: "skovstade-hoej", format: "hoej", span: 3,
-        tekst: "Et enligt stade på skrænten mellem høgeurt og bregner.",
-        alt: "Enkelt grønt bistade med blå strop på en skovskrænt omgivet af gul høgeurt",
-      },
-      {
-        fil: "ejendommen-fra-luften", format: "bred", span: 4,
+        fil: "ejendommen-fra-luften", format: "bred", span: 6,
         tekst: "Ejendommen fra luften — skov til alle sider.",
         alt: "Luftfoto af hvidt hus omgivet af tæt skov med marker i horisonten",
       },
@@ -78,7 +73,7 @@ export default [
     billeder: [
       {
         fil: "magasiner-stablet", format: "hoej", span: 4,
-        tekst: "Magasinerne stables i bryggerset — klar til afdækning.",
+        tekst: "Magasinerne stables i bryggerset — klar til at blive skrællet og slynget.",
         alt: "Grønne honningmagasiner stablet oven på hinanden indendørs med tavlerammer i",
       },
       {
@@ -98,7 +93,7 @@ export default [
       },
       {
         fil: "tavleglas-bord", format: "hoej", span: 4,
-        tekst: "Tavlehonning klar til at blive fyldt op med flydende honning — august måneds fineste øjeblik.",
+        tekst: "Glas klar til at blive fyldt op med flydende honning — august måneds fineste øjeblik.",
         alt: "Glas med lodrette stykker tavlehonning på spisebordet og en buket blomster i baggrunden",
       },
     ],
