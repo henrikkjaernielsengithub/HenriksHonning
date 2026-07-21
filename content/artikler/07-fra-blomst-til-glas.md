@@ -3,7 +3,7 @@ title: Fra blomst til glas
 category: Honningen
 date: 2026-07-07
 image: /assets/img/fra-blomst-til-glas.jpg
-imageAlt: Åbent bistade med tavler dækket af bier og honning
+imageAlt: Nyhøstet tavlehonning skæres i blokke med kniv på en rist i køkkenet
 description: Hvordan bliver tynd blomsternektar til tyk, holdbar honning? Følg rejsen fra blomstens nektar gennem biernes honningmave og tavler til det færdige glas på bordet.
 kilder:
   - "Danmarks Biavlerforening, biavl.dk: 'Lidt om honningbiernes levevis' – nektar, honningmave og honningdannelse"

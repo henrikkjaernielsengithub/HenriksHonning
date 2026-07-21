@@ -659,8 +659,8 @@ permalink: /om/
 ---
 
 For mere end ti år siden startede jeg som aldeles nybegynder inden for biavl. I dag
-passer jeg nogle bifamilier på en skovejendom ved Hinge — som en hobby, der er
-vokset sig til en fascination af biernes liv og deres rolle i naturen.
+passer jeg mine bifamilier på en skovejendom ved Hinge — som en hobby, der er
+vokset til en fascination af biernes liv og deres rolle i naturen.
 
 Denne side samler mine artikler om honningbier, biavl og biodiversitet. Jeg skriver
 med afsæt i dansk faglitteratur, men altid ud fra det, jeg selv oplever ude ved staderne.

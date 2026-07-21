@@ -3,7 +3,7 @@ title: Mange slags honning
 category: Honningen
 date: 2026-07-04
 image: /assets/img/mange-slags-honning.jpg
-imageAlt: Kasse med glas af Henriks Honning sommerhonning
+imageAlt: Glas med nyskåret tavlehonning på række på køkkenbordet efter høst
 description: Al honning er ikke ens. Smag, farve og konsistens afhænger af, hvilke blomster bierne har besøgt. Om de danske honningtyper – og hvorfor honning før eller siden bliver fast.
 kilder:
   - "Danmarks Biavlerforening, biavl.dk: om honning og honningtyper"
